@@ -61,3 +61,79 @@
 .s1 {
   margin-top: 6%;
 }
+
+.second_img img {
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+}
+.third_portion {
+  position: relative;
+}
+.Third-part-text {
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  text-align: start;
+  margin: 10% 10%;
+  color: aliceblue;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.462);
+}
+h3 > span {
+  color: rgb(60, 210, 60);
+}
+h4 > span {
+  background-color: antiquewhite;
+  color: black;
+}
+
+.about_text_part,
+.about_right_side {
+  margin: 7% 0%;
+}
+.progress_bar_part span {
+  display: inline;
+  float: right;
+  font-size: 15px;
+}
+.progress_bar_part {
+  margin-bottom: 5%;
+}
+.progress {
+  height: 5px; /* Adjust the height as needed */
+}
+.progress_bar_part h3 {
+  display: inline;
+  font-size: 20px;
+}
+
+.card-body h2 {
+  font-size: large;
+}
+
+.card-body h3 {
+  font-size: larger;
+  text-transform: uppercase;
+  color: #5aae33;
+}
+.team-part svg {
+  margin-right: 2%;
+}
+.team-part a {
+  text-decoration: none;
+}
+/* For media query */
+
+@media screen and (max-width: 330px) {
+  body {
+    font-size: 13px;
+  }
+}
