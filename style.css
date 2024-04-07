@@ -130,6 +130,25 @@ h4 > span {
 .team-part a {
   text-decoration: none;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.our-pricing-part p {
+  font-size: x-large;
+  font-weight: 500;
+}
+.card-header-custom {
+  color: #5aae33;
+  font-size: x-large;
+  font-weight: 600;
+  /* color: white; */
+}
+.card-body .list-group-flush .list-group-item {
+  border: none; /* Remove the border */
+}
 /* For media query */
 
 @media screen and (max-width: 330px) {
