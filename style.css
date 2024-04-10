@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar-nav li :hover {
   color: rgb(27, 203, 94);
 }
@@ -149,10 +160,81 @@ h4 > span {
 .card-body .list-group-flush .list-group-item {
   border: none; /* Remove the border */
 }
+
+.newspart {
+  position: relative;
+  height: 40vh;
+}
+.newspart img {
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+}
+.news-text {
+  position: absolute;
+
+  top: 20%;
+  left: auto;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.signupbtn {
+  background-color: #5aae33;
+  border: none;
+  border-radius: 0%;
+}
+
+.projects-types button {
+  background-color: transparent;
+  color: #00000086;
+  border-color: #00000086;
+  border-radius: 5%;
+  padding: 0 15px;
+}
+
+.gallery-item1 > img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.contact-part-img img {
+  /* position: relative; */
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+  margin-top: 5vh;
+}
+.contact-part-img {
+  position: relative;
+}
+.form-part {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the form */
+  color: antiquewhite;
+}
+.left-side-text1 a {
+  gap: 5;
+  text-decoration: none;
+  margin: 5px;
+}
 /* For media query */
 
 @media screen and (max-width: 330px) {
   body {
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-part-img img {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contact-part-img img {
+    height: 80vh;
   }
 }
